@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Mon Amour One Medium';
+	src: url('../fonts/mon_amour_one_medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/mon_amour_one_medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/mon_amour_one_medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/mon_amour_one_medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/mon_amour_one_medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/mon_amour_one_medium.svg#mon_amour_one_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body{
+    font-family: 'Mon Amour One Medium', sans-serif;
+    margin: 0;
+}
+main{
+    /* background:no-repeat center / contain url(../img/it-bg.png) ; */
+    font-size: 20px;
+    background-color: rgb(255, 253, 253);
+}
+.header
+{
+    background: no-repeat url('../img/carbon-bg.jpeg') ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.header-title
+{
+    margin-right: 150px;
+}
+main
+{
+    padding:15px;
+}
+.logo
+{
+    width: 500px;
+}
+.car-img
+{
+    height: 500px;
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+ul {
+    list-style-image: url('../img/list-marker.png');
+  }
+
+.footer
+{
+    clear: both;
+    padding: 15px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
